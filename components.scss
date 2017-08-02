@@ -1,0 +1,5 @@
+@each $class, $value in $gridi-helpers-flexbox-flex-flow-classes {
+    .#{$class} {
+        @include flex-flow(map-get($value, direction), map-get($value, wrap));
+    }
+}

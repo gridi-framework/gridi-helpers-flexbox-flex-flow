@@ -1,0 +1,50 @@
+$gridi-helpers-flexbox-flex-flow-classes: (
+    flex-flow-row-nowrap: (
+        direction: row,
+        wrap: nowrap
+    ),
+    flex-flow-row-wrap: (
+        direction: row,
+        wrap: wrap
+    ),
+    flex-flow-row-wrap-reverse: (
+        direction: row,
+        wrap: wrap-reverse
+    ),
+    flex-flow-row-reverse-nowrap: (
+        direction: row-reverse,
+        wrap: nowrap
+    ),
+    flex-flow-row-reverse-wrap: (
+        direction: row-reverse,
+        wrap: wrap
+    ),
+    flex-flow-row-reverse-wrap-reverse: (
+        direction: row-reverse,
+        wrap: wrap-reverse
+    ),
+    flex-flow-column-nowrap: (
+        direction: column,
+        wrap: nowrap
+    ),
+    flex-flow-column-wrap: (
+        direction: column,
+        wrap: wrap
+    ),
+    flex-flow-column-wrap-reverse: (
+        direction: column,
+        wrap: wrap-reverse
+    ),
+    flex-flow-column-reverse-nowrap: (
+        direction: column-reverse,
+        wrap: nowrap
+    ),
+    flex-flow-column-reverse-wrap: (
+        direction: column-reverse,
+        wrap: wrap
+    ),
+    flex-flow-column-reverse-wrap-reverse: (
+        direction: column-reverse,
+        wrap: wrap-reverse
+    ),
+) !default;
